@@ -23,6 +23,8 @@ A Streamlit-powered application using Google Gemini AI for:
 
 ---
 ## 📁 Project Structure
+
+```
 genai-assistant/
 ├── app.py                  # Streamlit frontend
 ├── .env                    # API keys (gitignored)
@@ -34,6 +36,7 @@ genai-assistant/
 │   └── challenge.py        # Logic-based question generation & evaluation
 ```
 
+```
 Flow:
 
 User uploads document → Text extracted → Auto-summary generated.
@@ -41,7 +44,7 @@ User uploads document → Text extracted → Auto-summary generated.
 Ask Anything: Gemini answers queries with direct document references.
 
 Challenge Me: Questions generated → User answers → AI evaluates + justifies.
-
+```
 
 ---
 
