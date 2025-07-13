@@ -10,8 +10,9 @@ A Streamlit-powered application using Google Gemini AI for:
 ---
 
 ## 🌐 Live Demo
-
-
+---
+https://shubhanshu80-smart-assistant-for-genai-assistant-mainapp-ziodel.streamlit.app/
+---
 
 ## 🚀 Features
 
