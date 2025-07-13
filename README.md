@@ -13,6 +13,9 @@ A Streamlit-powered application using Google Gemini AI for:
 ---
 https://shubhanshu80-smart-assistant-for-genai-assistant-mainapp-w7znct.streamlit.app/
 ---
+## Video Demo Running
+
+https://github.com/user-attachments/assets/af337737-1e70-440a-a617-a6b46c3f2303
 
 ## 🚀 Features
 
