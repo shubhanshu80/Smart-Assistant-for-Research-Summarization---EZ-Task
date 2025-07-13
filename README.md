@@ -51,3 +51,33 @@ Challenge Me: Questions generated → User answers → AI evaluates + justifies.
 ---
 
 ## 🛠️ Setup Instructions
+
+1. **Clone this repo**
+```bash
+https://github.com/shubhanshu80/Smart-Assistant-for-Research-Summarization---EZ-Task.git
+cd genai-assistant
+```
+
+2. **Create a virtual environment**
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+```
+
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Set your Gemini API key**
+- Create a `.env` file in the root with:
+```
+GOOGLE_API_KEY=your-gemini-api-key-here
+```
+
+> Get your API key here: https://makersuite.google.com/app/apikey
+
+- API key from Google Gemini (via MakerSuite)
