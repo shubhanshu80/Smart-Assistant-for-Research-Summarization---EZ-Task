@@ -77,7 +77,11 @@ pip install -r requirements.txt
 ```
 GOOGLE_API_KEY=your-gemini-api-key-here
 ```
-
+5. **Run the app**
+```
+streamlit run app.py
+```
+##  Requirements
 > Get your API key here: https://makersuite.google.com/app/apikey
 
 - API key from Google Gemini (via MakerSuite)
