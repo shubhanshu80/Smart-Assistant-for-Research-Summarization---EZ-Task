@@ -22,20 +22,26 @@ A Streamlit-powered application using Google Gemini AI for:
   - Subjective: Auto-generated descriptive questions with answer inputs
 
 ---
-
-## 📁 Folder Structure
-
-```
+## 📁 Project Structure
 genai-assistant/
-├── app.py
-├── .env
-├── requirements.txt
+├── app.py                  # Streamlit frontend
+├── .env                    # API keys (gitignored)
+├── requirements.txt        # Dependencies
 ├── backend/
-│   ├── file_parser.py
-│   ├── summarizer.py
-│   ├── qa_engine.py
-│   └── challenge.py
+│   ├── file_parser.py      # PDF/TXT text extraction
+│   ├── summarizer.py       # ≤150-word summary with Gemini
+│   ├── qa_engine.py        # Free-form Q&A with citations
+│   └── challenge.py        # Logic-based question generation & evaluation
 ```
+
+Flow:
+
+User uploads document → Text extracted → Auto-summary generated.
+
+Ask Anything: Gemini answers queries with direct document references.
+
+Challenge Me: Questions generated → User answers → AI evaluates + justifies.
+
 
 ---
 
