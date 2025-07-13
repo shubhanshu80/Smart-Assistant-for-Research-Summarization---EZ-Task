@@ -4,6 +4,7 @@ A Streamlit-powered application using Google Gemini AI for:
 - 📄 Document upload (PDF/TXT)
 - 🧠 Auto-summarization (≤150 words)
 - 💬 Free-form Q&A
+- 💬 Free MCQ and Subjective Questions
 - 🎯 Challenge Me Mode (Objective & Subjective quiz generation)
 
 ---
@@ -52,7 +53,7 @@ Challenge Me: Questions generated → User answers → AI evaluates + justifies.
 
 1. **Clone this repo**
 ```bash
-git clone https://github.com/anmolecule94/genai-assistant
+https://github.com/shubhanshu80/Smart-Assistant-for-Research-Summarization---EZ-Task.git
 cd genai-assistant
 ```
 
