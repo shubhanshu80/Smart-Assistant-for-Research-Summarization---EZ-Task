@@ -1,6 +1,6 @@
 # 🧠 Gen AI Assistant for Research Summarization
 
-A Streamlit-powered application using Google Gemini AI for:
+A Streamlit-powered application using Google Gemini AI:
 - 📄 We can upload Document (PDF/TXT)
 - 🧠 Auto-summarization (≤150 words)
 - 💬 Free-form Q&A
